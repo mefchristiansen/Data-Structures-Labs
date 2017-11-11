@@ -47,9 +47,12 @@ public class Sorter {
 				sorter.insertionSort();
 				break;
 			case 4:
-				sorter.mergeSort();
+				sorter.mergeSortRecursiveLauncher();
 				break;
 			case 5:
+				sorter.mergeSortIterative();
+				break;
+			case 6:
 				sorter.quickSort();
 				break;
 			default:
@@ -97,14 +100,15 @@ public class Sorter {
 		System.out.println("\t1: Bubble Sort");
 		System.out.println("\t2: Selection Sort");
 		System.out.println("\t3: Insertion Sort");
-		System.out.println("\t4: Merge Sort");
-		System.out.println("\t5: Quick Sort");
+		System.out.println("\t4: Merge Sort Recursive");
+		System.out.println("\t5: Merge Sort Iterative");
+		System.out.println("\t6: Quick Sort");
 
 		do {
 			System.out.print("Choice: ");
 			try {
 				userChoice = scan.nextInt();
-				if (userChoice >= 1 && userChoice <= 5) {
+				if (userChoice >= 1 && userChoice <= 6) {
 					break;
 				} else {
 					System.out.println("Please enter a valid option (1 through 5)");
@@ -221,7 +225,66 @@ public class Sorter {
 		}
 	}
 
-	public void mergeSort() {
+	public void mergeSortRecursiveLauncher() {
+		mergeSortRecursive(0, intArray.length - 1);
+	}
+
+	public void mergeSortRecursive(int startIndex, int endIndex) {
+		if (startIndex >= endIndex) {
+			return;
+		}
+
+		int midIndex = (startIndex + endIndex) / 2;
+
+		mergeSortRecursive(startIndex, midIndex); //Left side of array
+		mergeSortRecursive(midIndex + 1, endIndex); //Right side of array
+
+		merge(startIndex, midIndex, endIndex);
+	}
+
+	public void merge(int startIndex, int midIndex, int endIndex) {
+		int leftLength, rightLength;
+		leftLength = midIndex - startIndex + 1;
+		rightLength = endIndex - midIndex;
+
+		int[] leftArray = new int[leftLength];
+		int[] rightArray = new int[rightLength];
+
+		for (int i = 0; i < leftLength; i++) {
+			leftArray[i] = intArray[i + startIndex];
+		}
+		for (int i = 0; i < rightLength; i++) {
+			rightArray[i] = intArray[i + midIndex + 1];
+		}
+
+		int left, right;
+		left = right = 0;
+
+		while (left < leftLength && right < rightLength) {
+			if (leftArray[left] < rightArray[right]) {
+				intArray[startIndex] = leftArray[left];
+				left++;
+			} else {
+				intArray[startIndex] = rightArray[right];
+				right++;
+			}
+			startIndex++;
+		}
+
+		while (left < leftLength) {
+			intArray[startIndex] = leftArray[left];
+			left++;
+			startIndex++;
+		}
+
+		while (right < rightLength) {
+			intArray[startIndex] = rightArray[right];
+			right++;
+			startIndex++;
+		}
+	}
+
+	public void mergeSortIterative() {
 
 	}
 
