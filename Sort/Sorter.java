@@ -10,8 +10,8 @@ public class Sorter {
 	public static final int NUM_RANDOM_NUMBERS     = 10;
 	public static final int NUM_USER_INPUT_NUMBERS = 10;
 
-	public Sorter(int numInts) {
-		intArray = new int[numInts];
+	public Sorter() {
+		
 	}
 
 	public static void main(String []args) {
@@ -23,10 +23,10 @@ public class Sorter {
 		Sorter sorter;
 
 		if (userInputChoice == 1) {
-			sorter = new Sorter(NUM_RANDOM_NUMBERS);
-			sorter.initRandomArray();
+			sorter = new Sorter();
+			sorter.initRandomArray(scan);
 		} else {
-			sorter = new Sorter(NUM_USER_INPUT_NUMBERS);
+			sorter = new Sorter();
 			sorter.initUserArray(scan);
 		}
 
@@ -133,7 +133,22 @@ public class Sorter {
 		System.out.println();
 	}
 
-	public final void initRandomArray() {
+	public final void initRandomArray(Scanner scan) {
+		int userChoice;
+
+		System.out.println("Enter how many numbers you want to sort: ");
+		do {
+			try {
+				userChoice = scan.nextInt();
+				break;
+			} catch (Exception e) {
+				System.out.println("Could not parse input. Please try again.");
+				scan.next();
+			}
+		} while(true);
+
+		intArray = new int[userChoice];
+
 		Random rand = new Random();
 
 		for (int i = 0; i < intArray.length; i++) {
@@ -226,6 +241,10 @@ public class Sorter {
 	}
 
 	public void mergeSortRecursiveLauncher() {
+		if (intArray == null) {
+			return;
+		}
+
 		mergeSortRecursive(0, intArray.length - 1);
 	}
 
@@ -240,6 +259,25 @@ public class Sorter {
 		mergeSortRecursive(midIndex + 1, endIndex); //Right side of array
 
 		merge(startIndex, midIndex, endIndex);
+	}
+
+	// The above function is recursive, so uses function call stack to store intermediate values of l and h.
+	// The function call stack stores other bookkeeping information together with parameters.
+	// Also, function calls involve overheads like storing activation record of the caller function and then resuming execution.
+	// Unlike Iterative QuickSort, the iterative MergeSort doesn’t require explicit auxiliary stack.
+
+	public void mergeSortIterative() {
+		int midIndex, endIndex;
+
+		int arrayLength = intArray.length;
+
+		for (int currSize = 1; currSize < arrayLength; currSize *= 2) {
+			for (int startIndex = 0; startIndex < arrayLength - currSize; startIndex += currSize * 2) {
+				midIndex = startIndex + currSize - 1;
+				endIndex = Math.min(startIndex + (currSize * 2) - 1, arrayLength - 1);
+				merge(startIndex, midIndex, endIndex);
+			}
+		}
 	}
 
 	public void merge(int startIndex, int midIndex, int endIndex) {
@@ -282,10 +320,6 @@ public class Sorter {
 			right++;
 			startIndex++;
 		}
-	}
-
-	public void mergeSortIterative() {
-
 	}
 
 	public void quickSort() {
