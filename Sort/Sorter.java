@@ -53,7 +53,7 @@ public class Sorter {
 				sorter.mergeSortIterative();
 				break;
 			case 6:
-				sorter.quickSort();
+				sorter.quickSortLauncher();
 				break;
 			default:
 				System.out.println("Invalid option");
@@ -322,8 +322,40 @@ public class Sorter {
 		}
 	}
 
-	public void quickSort() {
+	public void quickSortLauncher() {
+		quickSort(0, intArray.length - 1);
+	}
 
+	public void quickSort(int startIndex, int endIndex) {
+		if (startIndex >= endIndex) {
+			return;
+		}
+
+		int partitionIndex = partition(startIndex, endIndex);
+
+		quickSort(startIndex, partitionIndex - 1); //Left side
+		quickSort(partitionIndex + 1, endIndex); //Right side
+	}
+
+	public int partition(int startIndex, int endIndex) {
+		int partitionElement, aux;
+		partitionElement = intArray[endIndex];
+
+		int i = startIndex - 1;
+
+		for (int j = startIndex; j <= endIndex - 1; j++) {
+			if (intArray[j] < partitionElement) {
+				i++;
+				aux = intArray[j];
+				intArray[j] = intArray[i];
+				intArray[i] = aux;
+			}
+		}
+
+		intArray[endIndex] = intArray[i+1];
+		intArray[i+1] = partitionElement;
+
+		return i + 1;
 	}
 
 }
