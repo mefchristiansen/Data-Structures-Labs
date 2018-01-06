@@ -1,0 +1,846 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"print",
+				"println"
+			],
+			[
+				"pr",
+				"printBoard"
+			],
+			[
+				"sol",
+				"solution"
+			],
+			[
+				"Bo",
+				"Board"
+			],
+			[
+				"colM",
+				"colMax"
+			],
+			[
+				"Blo",
+				"BLOCK_SIZE"
+			],
+			[
+				"row",
+				"rowMax"
+			],
+			[
+				"Bl",
+				"BLOCK_SIZE"
+			],
+			[
+				"bloc",
+				"blockRow"
+			],
+			[
+				"BL",
+				"BLOCK_SIZE"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"Boar",
+				"BOARD_DIMENSION"
+			],
+			[
+				"get",
+				"getValue"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"nex",
+				"nextVal"
+			],
+			[
+				"next",
+				"nextMove"
+			],
+			[
+				"valid",
+				"validMove"
+			],
+			[
+				"BOa",
+				"BOARD_DIMENSION"
+			],
+			[
+				"BOARD",
+				"BOARD_DIMENSION"
+			],
+			[
+				"BO",
+				"BOARD_DIMENSION"
+			],
+			[
+				"pu",
+				"puzzle"
+			],
+			[
+				"board",
+				"boardScanner"
+			],
+			[
+				"read",
+				"readPuzzle"
+			],
+			[
+				"boar",
+				"boardFileName"
+			],
+			[
+				"sca",
+				"scanner"
+			],
+			[
+				"gene",
+				"generatePuzzle"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"solv",
+				"solveBoard\t(Sudoku.java)"
+			],
+			[
+				"su",
+				"sudokuBoard"
+			],
+			[
+				"vaid",
+				"validBoard\t(Board.java)"
+			],
+			[
+				"num",
+				"numRows"
+			],
+			[
+				"new",
+				"newBoard"
+			],
+			[
+				"numRo",
+				"numRows"
+			],
+			[
+				"numRow",
+				"numRowCols"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"parse",
+				"parseInt\t(Sorter.java)"
+			],
+			[
+				"Int",
+				"Integer\t(Sorter.java)"
+			],
+			[
+				"first",
+				"firstRow"
+			],
+			[
+				"tr",
+				"try\t(Sorter.java)"
+			],
+			[
+				"top",
+				"topElement"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"high",
+				"highAgeRange"
+			],
+			[
+				"low",
+				"lowAgeRange"
+			],
+			[
+				"M",
+				"MAX_AGE"
+			],
+			[
+				"getUserl",
+				"getUserLowAgeRange"
+			],
+			[
+				"getUser",
+				"getUserLastName"
+			],
+			[
+				"user",
+				"userLastName"
+			],
+			[
+				"curr",
+				"currNodeAge"
+			],
+			[
+				"sear",
+				"searchAgeRange"
+			],
+			[
+				"pri",
+				"printNodeData"
+			],
+			[
+				"com",
+				"compareTo\t(Node.java)"
+			],
+			[
+				"last",
+				"lastName"
+			],
+			[
+				"fin",
+				"findLastName"
+			],
+			[
+				"getNe",
+				"getNextNode"
+			],
+			[
+				"inser",
+				"insertNode\t(Database.java)"
+			],
+			[
+				"crea",
+				"createDatabase"
+			],
+			[
+				"dat",
+				"dataIsStudent"
+			],
+			[
+				"data",
+				"dataLastName"
+			],
+			[
+				"Data",
+				"Database"
+			],
+			[
+				"set",
+				"setNextNode"
+			],
+			[
+				"n2",
+				"n2LastName"
+			],
+			[
+				"n1",
+				"n1LastName"
+			],
+			[
+				"firs",
+				"firstName"
+			],
+			[
+				"Li",
+				"LinkedList"
+			],
+			[
+				"node",
+				"nodeData"
+			],
+			[
+				"cen",
+				"centerPoint"
+			],
+			[
+				"Po",
+				"Point2D\t(Point2D.java)"
+			],
+			[
+				"getCen",
+				"getCenter\t(Sphere.java)"
+			],
+			[
+				"cent",
+				"centerZ"
+			],
+			[
+				"center",
+				"centerPoint\t(Circle.java)"
+			],
+			[
+				"Poi",
+				"Point3D\t(Point3D.java)"
+			],
+			[
+				"setCe",
+				"setCenter\t(Circle.java)"
+			],
+			[
+				"cne",
+				"centerY"
+			],
+			[
+				"cn",
+				"centerZ"
+			],
+			[
+				"cnet",
+				"centerY"
+			],
+			[
+				"ce",
+				"centerX"
+			],
+			[
+				"getce",
+				"getCenterY\t(Circle.java)"
+			],
+			[
+				"getCenter",
+				"getCenterX\t(Circle.java)"
+			],
+			[
+				"to",
+				"toString\t(Public2DInterface.java)"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"par",
+				"partitionElement"
+			],
+			[
+				"Par",
+				"partitionElement"
+			],
+			[
+				"Part",
+				"partitionIndex"
+			],
+			[
+				"part",
+				"partitionElement"
+			],
+			[
+				"mid",
+				"midCalc"
+			],
+			[
+				"end",
+				"endIndex"
+			],
+			[
+				"arra",
+				"arrayLength"
+			],
+			[
+				"righ",
+				"rightIndex"
+			],
+			[
+				"left",
+				"leftIndex"
+			],
+			[
+				"lef",
+				"leftIndex"
+			],
+			[
+				"ri",
+				"rightLength"
+			],
+			[
+				"right",
+				"right"
+			],
+			[
+				"sta",
+				"startIndex"
+			],
+			[
+				"merge",
+				"mergeSortRecursive"
+			],
+			[
+				"mi",
+				"midIndex"
+			],
+			[
+				"merg",
+				"mergeSortRecursive"
+			],
+			[
+				"NUM",
+				"NUM_USER_INPUT_NUMBERS"
+			],
+			[
+				"nu",
+				"numbers"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"init",
+				"initUserArray"
+			],
+			[
+				"int",
+				"intArray"
+			],
+			[
+				"In",
+				"InputOptions"
+			],
+			[
+				"File",
+				"FileInputStream\t(CopyFile.java)"
+			],
+			[
+				"b",
+				"bWrite"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"boo",
+				"booyah-box\t(master.css.scss)"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"link",
+				"link_to"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"aut",
+				"author\t(20170611011451_create_quotes.rb)"
+			],
+			[
+				"lo",
+				"localhost"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "Package",
+		"selected_items":
+		[
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"package control",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Marcus/Desktop/Coding Practice/Java/Sudoku/Makefile",
+		"/Users/Marcus/Desktop/Coding Practice/Java/LL/Database/TestDatabase.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/Sudoku/StackType.java",
+		"/Users/Marcus/Desktop/Sudoku/src/Stack.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/LL/Database/Database.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/LL/Database/Node.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/LL/Database/Data.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/Sort/Sorter.java",
+		"/Users/Marcus/Desktop/Lab 3 Database/src/TestDatabase.java",
+		"/Users/Marcus/Desktop/Lab 3 Database/src/Entry.java",
+		"/Users/Marcus/Desktop/Lab 3 Database/src/Database.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/LL/Practice/Node.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/LL/Node.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/LL/Data.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/LL/LinkedListsTest.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/LL/LinkedList.java",
+		"/Users/Marcus/Desktop/Linked Lists Example More General/src/LinkedListsTest.java",
+		"/Users/Marcus/Desktop/Linked Lists Example More General/src/Node.java",
+		"/Users/Marcus/Desktop/Linked Lists Example More General/src/Data.java",
+		"/Users/Marcus/Desktop/Linked Lists Example More General/src/LinkedList.java",
+		"/Users/Marcus/Desktop/Lab 2 Object Oriented Design/src/TestLab2.java",
+		"/Users/Marcus/Desktop/Lab 2 Object Oriented Design/src/Circle.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/OOP/Point3D.java",
+		"/Users/Marcus/Desktop/Lab 2 Object Oriented Design/src/Sphere.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/OOP/Sphere.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/OOP/Circle.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/OOP/Point2D.java",
+		"/Users/Marcus/Desktop/Lab 2 Object Oriented Design/src/Point3D.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/OOP/Public2DInterface.java",
+		"/Users/Marcus/Desktop/Lab 2 Object Oriented Design/bin/Circle.class",
+		"/Users/Marcus/Desktop/Lab 2 Object Oriented Design/src/Point2D.java",
+		"/Users/Marcus/Desktop/Coding Practice/C++/Sorting/Merge Sort/mergeSort.cpp",
+		"/Users/Marcus/Desktop/Coding Practice/C++/Sorting/Insertion Sort/insertionSort.cpp",
+		"/Users/Marcus/Desktop/Coding Practice/C++/Sorting/Selection Sort/selectionSort.cpp",
+		"/Users/Marcus/Desktop/Coding Practice/C++/Sorting/Bubble Sort/bubbleSort.cpp",
+		"/Users/Marcus/Desktop/Coding Practice/Java/Tutorial/CopyFile.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/Tutorial/fileStream.java",
+		"/Users/Marcus/Desktop/Coding Practice/C++/OOP/virtual.cpp",
+		"/Users/Marcus/Desktop/Coding Practice/C++/OOP/inheritance.cpp",
+		"/Users/Marcus/Desktop/Coding Practice/Java/Tutorial/TestEmployee.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/Test.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/Tutorial/Employee.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/final.java",
+		"/Users/Marcus/Desktop/test.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/Tutorial/employeeTest.java",
+		"/Users/Marcus/Desktop/Coding Practice/Java/Tutorial/employee.java",
+		"/Users/Marcus/Desktop/Marcus/School Work/Previous Semesters/Fall 2015/Principles 2325/Labs/Lab 6/Lab6/Lab6.hs",
+		"/Users/Marcus/Desktop/Java Practice/hello.java",
+		"/Users/Marcus/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Marcus/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Marcus/Desktop/vagrant/src/nomster/db/migrate/20170611215836_create_places.rb",
+		"/Users/Marcus/Desktop/vagrant/src/nomster/config/routes.rb",
+		"/Users/Marcus/Desktop/vagrant/src/nomster/Gemfile",
+		"/Users/Marcus/Desktop/vagrant/src/nomster/log/development.log",
+		"/Users/Marcus/Desktop/vagrant/src/nomster/config/initializers/simple_form.rb",
+		"/Users/Marcus/Desktop/vagrant/src/nomster/app/models/place.rb",
+		"/Users/Marcus/Desktop/vagrant/src/nomster/app/assets/javascripts/application.js",
+		"/Users/Marcus/Desktop/vagrant/src/nomster/app/assets/stylesheets/application.scss",
+		"/Users/Marcus/Desktop/vagrant/src/nomster/config/database.yml",
+		"/Users/Marcus/Desktop/vagrant/src/nomster/config/environments/production.rb",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/app/assets/stylesheets/master.css.scss",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/app/controllers/quotes_controller.rb",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/app/views/layouts/application.html.erb",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/app/views/quotes/index.html.erb",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/app/assets/stylesheets/fonts.css.scss",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/app/models/quote.rb",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/config/initializers/simple_form.rb",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/app/views/quotes/about.html.erb",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/app/assets/javascripts/application.js",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/config/application.rb",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/config/routes.rb",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/app/views/quotes/new.html.erb",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/Gemfile",
+		"/Users/Marcus/Desktop/firehose/portfolio/portfolio.html",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/db/migrate/20170611011451_create_quotes.rb",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/app/assets/stylesheets/footer.css.scss",
+		"/Users/Marcus/Downloads/webfontkit-20170611-141048/stylesheet.css",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/app/assets/stylesheets/application.scss",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/config/environments/production.rb",
+		"/Users/Marcus/Desktop/vagrant/src/splurty/config/database.yml",
+		"/Users/Marcus/Desktop/firehose/portfolio/style.css",
+		"/Users/Marcus/Desktop/test/untitled.cpp",
+		"/Users/Marcus/Library/Application Support/Sublime Text 3/Packages/Trimmer/Default (OSX).sublime-keymap",
+		"/Users/Marcus/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "TestSudoku.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pla",
+				"app/models/place.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"alt",
+				"db/migrate/20170614140133_alter_places_add_user_id_column.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"sc",
+				"db/schema.rb"
+			],
+			[
+				"devise_crea",
+				"db/migrate/20170614135227_devise_create_users.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"deve",
+				"config/environments/development.rb"
+			],
+			[
+				"simpl",
+				"config/initializers/simple_form.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"model",
+				"app/models/place.rb"
+			],
+			[
+				"mas",
+				"app/assets/stylesheets/master.css.scss"
+			],
+			[
+				"appl",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"a",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"app",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"mi",
+				"db/migrate/20170611215836_create_places.rb"
+			],
+			[
+				"pro",
+				"config/environments/production.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"index",
+				"app/views/quotes/index.html.erb"
+			],
+			[
+				"quo",
+				"app/controllers/quotes_controller.rb"
+			],
+			[
+				"new",
+				"app/views/quotes/new.html.erb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"sim",
+				"config/initializers/simple_form.rb"
+			],
+			[
+				"fonts",
+				"app/assets/stylesheets/fonts.css.scss"
+			],
+			[
+				"application.ht",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"inde",
+				"app/views/quotes/index.html.erb"
+			],
+			[
+				"qu",
+				"app/controllers/quotes_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
