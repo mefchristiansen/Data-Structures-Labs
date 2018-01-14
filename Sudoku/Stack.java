@@ -6,12 +6,12 @@ public class Stack<E> implements StackType<E> {
 	private ArrayList<E> stack;
 
 	public Stack() {
-		stack = new ArrayList<E> ();
+		stack = new ArrayList<E>();
 	}
 
 	public Stack(int numElements) {
 		// If the arraylist is allocated with an initial size of numElements, you can immediately access the indicies 0 to numElements - 1
-		stack = new ArrayList<E> (numElements);
+		stack = new ArrayList<E>(numElements);
 	}
 
 	public void push(E element) {

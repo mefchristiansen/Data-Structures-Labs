@@ -10,9 +10,7 @@ public class Sorter {
 	public static final int NUM_RANDOM_NUMBERS     = 10;
 	public static final int NUM_USER_INPUT_NUMBERS = 10;
 
-	public Sorter() {
-		
-	}
+	public Sorter() {}
 
 	public static void main(String []args) {
 
